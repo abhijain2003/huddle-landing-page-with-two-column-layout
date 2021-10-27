@@ -1,0 +1,301 @@
+body  {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+
+h2  {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+    opacity: 92%;
+}
+
+p  {
+    color: hsl(243, 87%, 12%);
+    opacity: 92%;
+    font-weight: 400;
+}
+
+.list , h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+.logo  {
+    max-width: 40%;
+}
+
+.nav-link  {
+    color: hsl(243, 87%, 12%);
+}
+
+.nav-link:hover  {
+    color: hsl(238, 22%, 44%);
+}
+
+.started  {
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    padding: 5px  45px;
+    border-radius: 5px;
+}
+
+.email-here  {
+    padding: 3px  0;
+    margin-right: 5px;
+    max-width: 380px;
+    border-radius: 1px;
+    border: 1px  solid hsl(238, 22%, 44%);
+}
+
+#title {
+    padding: 1%  4%  7%  4%;
+}
+
+.title-text  {
+    margin: auto  0;
+    justify-content: space-evenly;
+}
+
+.front-view  {
+    display: flex;
+    margin: 7%  0;
+}
+
+.title-image , .productive-image , #image-top-1{
+    max-width: 100%;
+}
+
+.title-buttons  {
+    display: flex;
+}
+
+.productive-data  {
+    display: flex;
+    padding: 7%  0;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.productive-content  {
+    padding: 0  0  0   4%;
+    margin: auto  0;
+}
+
+.productive-image  {
+    padding-right: 4%;
+}
+
+.productive-head  {
+    margin-bottom: 2rem;
+}
+
+.productive-para , span , .login-para {
+    font-size: 15px;
+}
+
+.how  {
+    display: block;
+}
+
+span {
+    color: hsl(170, 45%, 43%);
+}
+
+hr  {
+    width: 150px;
+    border: 1px solid hsl(170, 45%, 43%);
+    margin-top: -10px;
+    position: relative;
+    right: 150px;
+}
+
+.founder-box  {
+    width: 350px;
+    padding: 4%;
+    background-color: #fff;
+    box-shadow: 0px  0px  10px  2px  hsl(238, 22%, 44%);
+}
+
+.founder-image  {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: -5px;
+}
+
+.founder-profile  {
+    display: flex;
+}
+
+.box-para  {
+    font-size: 12px;
+}
+
+h6  {
+    font-size: 12px;
+    line-height: .5;
+}
+
+#login-view  {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.login-data  {
+    display: flex;
+    padding: 7%;
+    justify-content: space-between;
+}
+
+.login-buttons  {
+    display: flex;
+    flex-direction: column;
+}
+
+.login  {
+    width: 250px;
+    margin-top: 15px;
+}
+
+.email-login  {
+    width: 400px;
+}
+
+.login-para  {
+    max-width: 480px;
+}
+
+.login-head , .login-para {
+    color: hsl(240, 75%, 98%);
+}
+
+#contact  {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(243, 87%, 12%);
+    padding: 7%  0;
+}
+
+#contact  p , #contact span {
+    color: hsl(240, 75%, 98%);
+}
+
+#contact p:hover  {
+    color: hsl(0, 0%, 75%);
+}
+
+.logo-white {
+    margin-bottom: 20px;
+}
+
+.icon  {
+    color: #fff;
+    border: 1px  solid  #fff;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.box4  {
+    width: 150px;
+    margin: auto  0;
+}
+
+
+@media screen and (max-width: 958px)  {
+    body  {
+        height: 2900px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .list  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 200px;
+    }
+ 
+    .logo  {
+        width: 30%;
+    }
+
+    .front-view  {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .title-text  {
+        text-align: center;
+    }
+
+    .title-head , .title-para {
+        white-space: pre;
+        margin: 20px  auto;
+    }
+
+    .title-buttons  {
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+
+    .productive-data  {
+        flex-direction: column-reverse;
+    }
+
+    .productive-head  {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .productive-para  {
+        white-space: pre;
+        margin: 0  auto;
+    }
+
+    .how  {
+        text-align: center;
+        margin: 50px  auto;
+    }  
+
+    hr  {
+        left: 0;
+    }
+
+    .login-data  {
+        flex-direction: column;
+    }
+
+    .login-buttons  {
+        align-self: center;
+        margin: 25px  0;
+    }
+
+    .email-login  {
+        width: 250px;
+    }
+
+    .login-data  {
+        padding: 10%;
+    }
+
+    #contact  {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .box4 , .box1 , .box3 , .box2 {
+        margin-top: 25px;
+        padding-left: 30px;
+    }
+
+    .box4  {
+        margin: 0  auto  25px;
+    }
+
+ }
+ 
